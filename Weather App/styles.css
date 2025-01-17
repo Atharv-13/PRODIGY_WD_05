@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87dff5;
+    color: rgb(17, 16, 16);
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2012/11/Free-Simple-Black-Seamless-Pattern-for-Website-Background.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app-container {
+    text-align: center;
+    background-color: #11dce6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  #cityInput {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #searchButton {
+    padding: 10px 15px;
+    border: none;
+    background-color: #da1146;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-result {
+    display: none;
+    margin-top: 20px;
+  }
+  
